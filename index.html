@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/HomePageCSS/HomePage.css" />
+    <link rel="stylesheet" href="/GeneralCSS/General.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+    <title>RESOLD</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>RESOLD</h1>
+        <nav id="navigation">
+        <a class="icon" onclick="openMobileNavigationMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <ul>
+          <li><h2><a href="../Contacts/contact.html">Contact Us</a></h2></li>
+          <li><h2><a href="../Products/product.html">Products</a></h2></li>
+          <li><h2><a href="../index.html">Home Page</a></h2></li>
+        </ul>
+        </nav>
+      </header>
+      <div id="HomeBody">
+        <div class = "HomeSection">
+          <h3>About us</h3>
+          <p>RESOLD is a recently founded company in the year 2025 for the purpose<br class="ParagraphBreak">
+             of offering easy resale for used electronics. we fulfill our purpose by<br class="ParagraphBreak">
+             putting any electronics you want to sell up on our website or at our in<br class="ParagraphBreak">
+            person locations so that anyone may view them all for a small fee. We also<br class="ParagraphBreak">
+            offer new electronics on sale. (available product may vary)
+          </p>
+        </div>
+        <div class = "HomeSection">
+          <h3>Visit us here at <br> (Insert Address here)</h3>
+          <img id="StoreFront" src="Images/Store Front.png" alt="Store Front" />
+        </div>
+      </div>
+      <br />
+      <br />
+      <h3>Our Mission</h3>
+      <p id="MStatement">
+        We at RESOLD aim to provide quality products with
+        excellent service.
+      </p>
+      <br />
+      <br />
+    </main>
+    <footer>
+      <div class="FooterTop">
+        <div><p>Updated:</p></div>
+        <div><p>Published:</p></div>
+        <div class="Socials">
+          <div>
+            <p>Socials:</p>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/"
+              ><img src="Images/instagram.png" alt="Instagram"
+            /></a>
+          </div>
+          <div>
+            <a href="https://x.com/?lang=en"
+              ><img src="Images/twitter.png" alt="Twitter"
+            /></a>
+          </div>
+          <div>
+            <a href="https://www.facebook.com/"
+              ><img src="Images/facebook.png" alt="Facebook"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    function openMobileNavigationMenu() {
+     var x = document.getElementById("navigation");
+     if (x.className === "") {
+     x.className += "responsive";
+     } else {
+     x.className = "";
+     }
+    }
+    </script>
+</html>

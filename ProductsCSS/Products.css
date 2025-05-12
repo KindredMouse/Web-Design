@@ -1,0 +1,41 @@
+table img {
+  max-width: 100px;
+  border-radius: 20px;
+}
+#TableHold {
+  display: flex;
+  justify-content: center;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+table {
+  text-align: center;
+  padding: 10px;
+}
+td,
+th {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+table{
+  background-color: rgb(232, 181, 181);
+}
+td{
+  color: rgb(0, 80, 0);
+}
+td,th{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media (max-width: 500px) {
+  th,
+  td {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .colorOpt{
+    display:none;
+  }
+}

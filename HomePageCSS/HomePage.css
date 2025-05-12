@@ -1,0 +1,48 @@
+#HomeBody {
+  display: flex;
+  justify-content: space-evenly;
+}
+#MStatement {
+  text-align: center;
+  padding:0px;
+  margin-top: 0px;
+}
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+#StoreFront {
+  max-width: 200px;
+  border-radius: 20px;
+  margin-right: 10px;;
+}
+h3 {
+  text-align: center;
+}
+p {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+  margin-top:30px;
+}
+@media (max-width: 500px) {
+  #StoreFront {
+    display: block;
+    max-width: 150px;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  main div {
+    padding: 5px;
+  }
+  #HomeBody{
+    display: inline;
+  }
+}
+@media (max-width:745px) {
+  .ParagraphBreak{
+    display: none;
+  }
+}

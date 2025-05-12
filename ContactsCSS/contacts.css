@@ -1,0 +1,61 @@
+#HeadSocials img {
+  max-width: 50px;
+  border-radius: 15px; 
+}
+#HeadSocials{
+  background-color:rgba(192, 241, 192, 0.929);
+  padding-top: 5px;
+}
+
+header div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer {
+  margin-top: 40px;
+}
+#FormTotal {
+  display: flex;
+  justify-content: center;
+}
+.TextInput{
+  width:350px;
+}
+label,p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+  margin-top:50px;
+}
+@media screen and (max-width:760px){
+  .TextInput{
+    width:200px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:605px){
+  .TextInput{
+    width: 175px;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 580px) {
+  #FormTotal {
+    display: flex;
+    justify-content: center;  
+  }
+
+  form {
+    display: flex;
+    
+  }
+  .FormBlock {
+    display: block;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  footer{
+    margin-top:215px;
+  }
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="../ProductsCSS/Products.css" />
+    <link rel="stylesheet" href="../GeneralCSS/General.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Products</h1>
+      <nav id="navigation">
+        <a class="icon" onclick="openMobileNavigationMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      <ul>
+        <li><h2><a href="../Contacts/contact.html">Contact Us</a></h2></li>
+        <li><h2><a href="../Products/product.html">Products</a></h2></li>
+        <li><h2><a href="../index.html">Home Page</a></h2></li>
+      </ul>
+      </nav>
+    </header>
+    <br/>
+    <br />
+    <div id="TableHold">
+      <table>
+        <tr>
+          <th></th>
+          <th>Product</th>
+          <th>Price</th>
+          <th class="colorOpt">Color Options</th>
+        </tr>
+        <tr>
+          <td>
+            <img src="../Images/Amazon Monitor.png" alt="Amazon Monitor" />
+          </td>
+          <td>Amazon Basics 27 inch IPS Monitor</td>
+          <td>$99.99</td>
+          <td class="colorOpt">None</td>
+        </tr>
+        <tr>
+          <td><img src="../Images/ryzen 7.png" alt="Ryzen 7" /></td>
+          <td>AMD Ryzen 7 9800X3D 8-Core</td>
+          <td>$479.00</td>
+          <td class="colorOpt">None</td>
+        </tr>
+        <tr>
+          <td><img src="../Images/NVIDIA.png" alt="NVIDIA RTX 5090 32GB" /></td>
+          <td>NVIDIA RTX 5090 32GB</td>
+          <td>$4,696.95</td>
+          <td class="colorOpt">None</td>
+        </tr>
+        <tr>
+          <td><img src="../Images/Aethon Keyboard.png" alt="Aethon Keyboard" /></td>
+          <td>Acer Predator Aethon 300 Gaming Keyboard</td>
+          <td>$114.05</td>
+          <td class="colorOpt">None</td>
+        </tr>
+        <tr>
+          <td>
+            <img src="../Images/HP mouse.png" alt="HP RGB gaming mouse" />
+          </td>
+          <td>HP wired RGB gaming mouse</td>
+          <td>$11.99</td>
+          <td class="colorOpt" >None</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <br />
+    <footer>
+      <div class="FooterTop">
+        <div><p>Updated:</p></div>
+        <div><p>Published:</p></div>
+        <div class="Socials">
+          <div>
+            <p>Socials:</p>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/"
+              ><img src="../Images/instagram.png" alt="Instagram"
+            /></a>
+          </div>
+          <div>
+            <a href="https://x.com/?lang=en"
+              ><img src="../Images/twitter.png" alt="Twitter"
+            /></a>
+          </div>
+          <div>
+            <a href="https://www.facebook.com/"
+              ><img src="../Images/facebook.png" alt="Facebook"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    function openMobileNavigationMenu() {
+     var x = document.getElementById("navigation");
+     if (x.className === "") {
+     x.className += "responsive";
+     } else {
+     x.className = "";
+     }
+    }
+    </script>
+</html>
